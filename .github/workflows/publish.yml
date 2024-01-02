@@ -119,6 +119,7 @@ jobs:
               1.19.3
               1.19.4
               1.20
+              1.20.4
     needs: [build_pre17, build_post16]
     runs-on: ubuntu-latest
     steps:
